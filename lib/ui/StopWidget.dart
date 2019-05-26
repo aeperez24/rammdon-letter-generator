@@ -78,7 +78,7 @@ class StopState extends State{
     int end = "Z".codeUnitAt(0);
     while (c <= end) {
       result.add(String.fromCharCode(c));
-
+      c++;
     }
     return result;
   }
